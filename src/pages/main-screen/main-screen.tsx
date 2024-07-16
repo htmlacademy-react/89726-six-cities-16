@@ -2,9 +2,10 @@ import PlaceCard from "../../components/place-card/place-card";
 
 type MainScreen = {
   placeCount: number;
+  foundedPlacesCount: number;
 }
 
-function MainScreen({placeCount}: MainScreen) : JSX.Element{
+function MainScreen({placeCount, foundedPlacesCount}: MainScreen) : JSX.Element{
   const placeCards = Array.from({ length: placeCount }, (_, index) => (
     <PlaceCard key={index} />
   ));
@@ -82,7 +83,7 @@ function MainScreen({placeCount}: MainScreen) : JSX.Element{
           <div className="cities__places-container container">
             <section className="cities__places places">
               <h2 className="visually-hidden">Places</h2>
-              <b className="places__found">312 places to stay in Amsterdam</b>
+              <b className="places__found">{foundedPlacesCount} places to stay in Amsterdam</b>
               <form className="places__sorting" action="#" method="get">
                 <span className="places__sorting-caption">Sort by</span>
                 <span className="places__sorting-type" tabIndex={0}>

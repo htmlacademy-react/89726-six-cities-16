@@ -11,6 +11,7 @@ root.render(
   <React.StrictMode>
     <App
       placeCardsCount={Setting.PlaceCardsCount}
+      foundedPlacesCount={Setting.FoundedPlacesCount}
     />
   </React.StrictMode>
 );
