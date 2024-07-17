@@ -36,7 +36,7 @@ function FavoritesScreen() : JSX.Element {
                 </div>
                 <div className="place-card__rating rating">
                   <div className="place-card__stars rating__stars">
-                   <span style={{ width: '100%' }}></span>
+                    <span style={{ width: '100%' }}></span>
                     <span className="visually-hidden">Rating</span>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ function FavoritesScreen() : JSX.Element {
         </li>
       </ul>
     </section>
-  )
+  );
 }
 
 export default FavoritesScreen;

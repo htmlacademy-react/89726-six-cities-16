@@ -1,4 +1,4 @@
-import PlaceCard from "../../components/place-card/place-card";
+import PlaceCard from '../../components/place-card/place-card';
 
 type MainScreen = {
   placeCount: number;
@@ -110,7 +110,7 @@ function MainScreen({placeCount, foundedPlacesCount}: MainScreen) : JSX.Element{
         </div>
       </main>
     </div>
-  )
+  );
 }
 
 export default MainScreen;
