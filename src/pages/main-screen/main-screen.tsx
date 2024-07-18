@@ -6,8 +6,8 @@ type MainScreen = {
 }
 
 function MainScreen({placeCount, foundedPlacesCount}: MainScreen) : JSX.Element{
-  const placeCards = Array.from({ length: placeCount }, (_, index) => (
-    <PlaceCard key={index} />
+  const placeCards = Array.from({ length: placeCount }).map(() => (
+    <PlaceCard key={crypto.randomUUID()} />
   ));
 
   return (
