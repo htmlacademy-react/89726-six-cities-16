@@ -1,4 +1,4 @@
-function Offer() : JSX.Element {
+function OfferPage() : JSX.Element {
   return (
     <section className="offer">
       <div className="offer__gallery-container container">
@@ -275,4 +275,4 @@ function Offer() : JSX.Element {
   );
 }
 
-export default Offer;
+export default OfferPage;

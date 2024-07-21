@@ -5,7 +5,7 @@ type MainScreen = {
   foundedPlacesCount: number;
 }
 
-function Main({placeCount, foundedPlacesCount}: MainScreen) : JSX.Element{
+function MainPage({placeCount, foundedPlacesCount}: MainScreen) : JSX.Element{
   const placeCards = Array.from({ length: placeCount }).map(() => (
     <PlaceCard key={crypto.randomUUID()} />
   ));
@@ -113,4 +113,4 @@ function Main({placeCount, foundedPlacesCount}: MainScreen) : JSX.Element{
   );
 }
 
-export default Main;
+export default MainPage;

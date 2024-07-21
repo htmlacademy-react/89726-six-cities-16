@@ -1,4 +1,4 @@
-function Favorites() : JSX.Element {
+function FavoritesPage() : JSX.Element {
   return (
     <section className="favorites">
       <h1 className="favorites__title">Saved listing</h1>
@@ -128,4 +128,4 @@ function Favorites() : JSX.Element {
   );
 }
 
-export default Favorites;
+export default FavoritesPage;
