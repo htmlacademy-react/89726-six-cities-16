@@ -7,8 +7,8 @@ function NotFound() : JSX.Element {
       <p className="not-found__text">
         Сорян, страница не существует
       </p>
-      <Link to="/" className="not-found__link">
-        На главную страницу;
+      <Link to="/">
+        На главную страницу
       </Link>
     </section>
   );
