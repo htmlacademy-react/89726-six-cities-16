@@ -1,4 +1,4 @@
-function LoginScreen() : JSX.Element {
+function Login() : JSX.Element {
   return (
     <section className="login">
       <h1 className="login__title">Sign in</h1>
@@ -17,4 +17,4 @@ function LoginScreen() : JSX.Element {
   );
 }
 
-export default LoginScreen;
+export default Login;
